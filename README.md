@@ -1,4 +1,4 @@
-# data_strage
+# arx_model_identification_program
 
 フォルダ構成を以下のようにしてください。
 - sample_folder
