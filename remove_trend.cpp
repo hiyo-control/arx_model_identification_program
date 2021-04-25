@@ -1,0 +1,16 @@
+#include <vector>
+#include "1_preprocessing_function.h"
+using namespace std;
+
+// トレンドの除去--------------------------------------------------------------
+vector<float> remove_trend( vector<float> input )
+{
+    float average_value = average_calc( input );
+    vector<float> result;
+
+    for ( int k=0; k<input.size(); k++ )
+    {
+        result.push_back( input[k] - average_value );
+    }
+    return result;
+}
