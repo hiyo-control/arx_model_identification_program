@@ -68,7 +68,7 @@ LIBS_5 += ./include/csv_import.h
 	$(CC) $(CFLAGS) 2_impulse_estimate 2_impulse_estimate.cpp $(LIBS_2)
 
 3_arx_structure: 3_arx_structure.cpp
-	$(CC) $(CFLAGS) 3_arx_strucuture 3_arx_structure.cpp $(LIBS_3)
+	$(CC) $(CFLAGS) 3_arx_structure 3_arx_structure.cpp $(LIBS_3)
 
 4_zero_pole_calculation: 4_zero_pole_calculation.cpp
 	$(CC) $(CFLAGS) 4_zero_pole_calculation 4_zero_pole_calculation.cpp $(LIBS_4)
